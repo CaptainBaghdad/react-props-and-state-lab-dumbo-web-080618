@@ -8,6 +8,13 @@ class PetBrowser extends React.Component {
     
   }
   
+  gTtype = (){
+    if(this.props.pet.gender == 'male'){
+      return ''
+      
+    }
+  }
+  
   render() {
     return (
     <div className="ui cards">
