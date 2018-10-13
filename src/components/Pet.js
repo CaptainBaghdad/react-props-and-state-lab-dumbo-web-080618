@@ -7,7 +7,7 @@ class Pet extends React.Component {
       <div className="card">
         <div className="content">
           <a className="header">
-            {/*'♀' OR '♂' */}
+            {this.props.gType}
             {this.props.pet.name}
           </a>
           <div className="meta">
