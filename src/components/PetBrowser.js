@@ -13,7 +13,7 @@ class PetBrowser extends React.Component {
       return '♀'
       
     }else{
-      return 
+      return '♂'
     }
   }
   
