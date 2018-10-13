@@ -3,11 +3,16 @@ import React from 'react'
 import Pet from './Pet'
 
 class PetBrowser extends React.Component {
+  
+  onPetAdopt(){
+    
+  }
+  
   render() {
     return (
     <div className="ui cards">
     
-    <Pet />
+    <Pet onPetAdopt={this.onPetAdopt}/>
     
     </div>
     )
