@@ -1,4 +1,5 @@
 import React from 'react'
+import pets from './data/pets.js'
 
 class Pet extends React.Component {
   render() {
